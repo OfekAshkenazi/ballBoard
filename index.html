@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mister Balls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="onHandleKey(event)" onload="onInitGame()">
+  <h1>Collect those Balls</h1>
+  <div class="headerBox">
+    <h3 class="h3">0</h3>
+    <h2 class="countNegs">the balls around you :</h3>
+
+  </div>
+  <button class="restBtn" onclick="restartBtn()">Game Rest</button>
+  <div class="boardPlace">
+  <table>
+    <tbody class="board"></tbody>
+  </table>
+</div>
+  <script src="js/util.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
